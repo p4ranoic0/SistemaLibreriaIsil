@@ -28,6 +28,13 @@ public class Sucursal {
 		this.estado = estado;		
 	}
 	
+	public Sucursal(int id, String nombre, String descripcion, String estado) {
+		
+		this.id = id;
+		this.nombre = nombre;
+		this.descripcion = descripcion;
+		this.estado = estado;		
+	}
 	
 	public int getId() {
 		return id;

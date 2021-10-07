@@ -61,7 +61,8 @@
 					</thead>
 					<c:forEach var="objSucursal" items="${listaSucursal}">
 						<tr>
-							<td>${objSucursal.id}</td>
+							<td><a href="sucursal?idSucursal=${objSucursal.id}&opcion=editar">
+								${objSucursal.id}</a></td>
 							<td>${objSucursal.nombre}</td>
 							<td>${objSucursal.descripcion}</td>
 							<td>${objSucursal.estado}</td>							

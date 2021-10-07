@@ -26,7 +26,7 @@
           <label for="nombre" class="control-label col-xs-4">Nombre:</label>
           <input type="text" name="nombre" id="nombre" class="form-control" value="${sucursal.nombre}" required="true" />
           <label for="descripcion" class="control-label col-xs-4">Descripcion: </label>          
-          <input type="text" name="descripcion" id="descripcion" class="form-control" value="${descripcion.aforo}" required="true"/> 
+          <input type="text" name="descripcion" id="descripcion" class="form-control" value="${sucursal.descripcion}" required="true"/> 
 		  
           <br></br>
 
